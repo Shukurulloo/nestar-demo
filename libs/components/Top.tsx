@@ -17,13 +17,13 @@ const Top = () => {
             <Link href={"/"}>
               <div>Home</div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/property"}>
               <div>Properties</div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/agent"}>
               <div>Agents</div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/community?articleCategory=FREE"}>
               <div>Community</div>
             </Link>
 

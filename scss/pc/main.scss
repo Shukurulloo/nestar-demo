@@ -1,7 +1,8 @@
 /** IMPORTS **/
 @import "/scss/variables.scss";
-@import "/scss/pc/homepage/homepage.scss";
+@import "/scss/pc/homepage/homepage.scss"; // homeoageni scssni yukladik
 
+// bu sass aynan layoutlar un hizmat qiladi
 #pc-wrap {
   #top {
     .navbar {
@@ -20,6 +21,7 @@
           background-color: color #181a209e;
         }
         .container {
+          // app.scss dagi mantiqlarni qo'shgan holda uni davom ettiramz
           flex-direction: row;
           align-items: center;
           justify-content: space-between;

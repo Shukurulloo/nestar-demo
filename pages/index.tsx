@@ -1,7 +1,7 @@
 import withLayoutMain from "@/libs/components/layout/LayoutHome";
 import { Box, Container, Stack } from "@mui/material";
 import { NextPage } from "next";
-/**  pages foleridagi hamma componentlar screen comp hisoblamadi. unga boshqa complarni joylayolmaymz chunki u
+/**  pages folrderidagi hamma componentlar screen comp hisoblamadi. unga boshqa complarni joylayolmaymz chunki u
  * linkga bog'langan holda tashkillanib qoladi
  * screen bo'lmaganlarni tashqaridagi libs/componentni ichiga joylaymiz */
 const Home: NextPage = () => {
@@ -9,13 +9,19 @@ const Home: NextPage = () => {
     <Stack>
       <Stack className={"home-page"}>
         <Stack>
+          <Stack className="container">Trend Properties</Stack>
+        </Stack>
+        <Stack>
           <Stack className="container">Popular Properties</Stack>
         </Stack>
         <Stack>
-          <Stack className="container">Top Agents</Stack>
+          <Stack className="container">Advertisement</Stack>
         </Stack>
         <Stack>
           <Stack className="container">Top Properties</Stack>
+        </Stack>
+        <Stack>
+          <Stack className="container">Top Agents</Stack>
         </Stack>
       </Stack>
     </Stack>

@@ -8,9 +8,8 @@
   height: 100%;
   .container { // ihtiyoriy containerlarga bu mantiq yuklanadi
     position: relative;
-    width: 1300px;
+    width: 1300px; // eng kichik monitordaham ishlashi un minimalistik pathot sifatida 1300px kritamz
     margin: 0 auto;
     display: flex;
-    // background: rgb(36, 131, 172);
   }
 }
