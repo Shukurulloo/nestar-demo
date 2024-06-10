@@ -1,7 +1,7 @@
 import { Stack } from "@mui/material";
 import Head from "next/head";
 
-const withLayoutMain = (Component: any) => {
+const withLayoutMain = (Component: any) => { // homePageni layouti
   return (props: any) => {
     return (
       <>

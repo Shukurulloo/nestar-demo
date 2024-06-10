@@ -3,7 +3,9 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
 import { useState } from "react";
 import { light } from "../scss/MaterialTheme";
+import "../scss/app.scss"
 
+// app global integratsiyasi uchun kerak. har bir faylda app ishga tushadi
 export default function App({ Component, pageProps }: AppProps) {
   //@ts-ignore
   const [theme, setTheme] = useState(createTheme(light));
