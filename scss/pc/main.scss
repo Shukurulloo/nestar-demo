@@ -1,6 +1,10 @@
 /** IMPORTS **/
 @import "/scss/variables.scss";
-@import "/scss/pc/homepage/homepage.scss"; // homeoageni scssni yukladik
+
+@import "/scss/pc/homepage/homepage.scss";// boshqa scss larni alohida qilib tashkillab buyerga imort qilamz
+@import "/scss/pc/property/property.scss";
+@import "/scss/pc/property/detail.scss";
+
 
 // bu sass aynan layoutlar un hizmat qiladi
 #pc-wrap {

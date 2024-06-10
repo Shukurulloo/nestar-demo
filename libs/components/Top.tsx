@@ -35,7 +35,7 @@ const Top = () => {
             <>
               <div className={"login-user"}>
                 <img
-                  src={"/img/profile/defaultUser.png"}
+                  src={"/img/profile/defaultUser.svg"}
                   width="60"
                   height="60"
                   object-fit="cover"
