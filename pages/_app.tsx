@@ -3,7 +3,9 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
 import { useState } from "react";
 import { light } from "../scss/MaterialTheme";
-import "../scss/app.scss"
+import "../scss/app.scss";
+import "../scss/pc/main.scss"
+
 
 // app global integratsiyasi uchun kerak. har bir faylda app ishga tushadi
 export default function App({ Component, pageProps }: AppProps) {
@@ -14,7 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>      {/* mui parent qilsak page routing tizimni hamma faylda integratsiya qilingan bo'ladi. props sifatida pass bo'lyapti */}
       <CssBaseline />
-\
+
       <Component {...pageProps} />      {/* app o'zidagi narsalarni hammasini qolgan pages routingda joylashgan fayllarga jo'natyapti */}
     </ThemeProvider>
   );
