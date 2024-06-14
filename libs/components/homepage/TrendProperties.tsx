@@ -52,7 +52,5 @@ const TrendProperties = () => {
     </Stack>
   );
 };
-TrendProperties.defaultProps = {
-  initialInput: [1, 2, 3, 4, 5, 6, 71],
-};
+
 export default TrendProperties;

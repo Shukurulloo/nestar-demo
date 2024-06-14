@@ -5,6 +5,7 @@ import { useState } from "react";
 import { light } from "../scss/MaterialTheme";
 import "../scss/app.scss";
 import "../scss/pc/main.scss"; // scss larni chaqirdik
+import "../scss/mobile/main.scss";
 
 
 // app global integratsiyasi uchun kerak. har bir faylda app ishga tushadi
